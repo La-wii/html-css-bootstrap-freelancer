@@ -1,0 +1,14 @@
+header{
+    background-color: gray;
+    height: 100px;
+}
+
+.jumbotron{
+    background-color: #1abc9c;
+    height: 400px;
+}
+
+.portfolio{
+    background-color: pink;
+    height: 100px;
+}
