@@ -1,14 +1,49 @@
 header{
     background-color: gray;
+    /* da cancellare */
     height: 100px;
 }
 
 .jumbotron{
     background-color: #1abc9c;
+    /* da cancellare */
     height: 400px;
 }
 
 .portfolio{
     background-color: pink;
+    /* da cancellare */
+    /* height: 500px; */
+}
+
+.row-works-1{
+    background-color: red;
+}
+
+.work{
+    background-color: slateblue;
+    /* da cancellare */
     height: 100px;
+    border: 1px solid black;
+}
+
+.about{
+    background-color: #1abc9c;
+    height: 400px;
+}
+
+.contact{
+    background-color: violet;
+    height: 400px;
+
+}
+
+.footer-top{
+    background-color: #3a546d;
+    height: 300px;
+}
+
+.footer-bottom{
+    background-color: #2c3e50;
+    height: 50px;
 }
