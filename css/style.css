@@ -17,7 +17,9 @@ header{
 }
 
 .jumbotron span,
-.portfolio span{
+.portfolio span,
+.about span,
+.contact span{
     display: inline-block;
     width: 60px;    
 }
@@ -27,14 +29,14 @@ header{
     margin-bottom: 20px;
 }
 
-.jumbotron span{
+.jumbotron span,
+.about span{
     border-bottom: 1px solid white;
 }
 
 /* portfolio */
-
-
-.portfolio span{
+.portfolio span,
+.contact span{
     border-bottom: 1px solid black;
 }
 
@@ -48,14 +50,26 @@ header{
     height: 250px;
 }
 
+/* about */
 .about{
     background-color: #1abc9c;
-    height: 400px;
+    color: white;
+    /* height: 400px; */
 }
 
+.about a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+/* conctact */
 .contact{
     background-color: violet;
-    height: 400px;
+    height: 500px;
 
 }
 
