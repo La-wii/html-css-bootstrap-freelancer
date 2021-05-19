@@ -10,27 +10,42 @@ header{
     background-color: #2c3e50;
 }
 
+/* jumbotron */
 .jumbotron{
     background-color: #1abc9c;
-    /* da cancellare */
-    height: 400px;
+    color: white;
 }
 
-.portfolio{
-    background-color: pink;
-    /* da cancellare */
-    /* height: 500px; */
+.jumbotron span,
+.portfolio span{
+    display: inline-block;
+    width: 60px;    
 }
 
-.row-works-1{
-    background-color: red;
+.avatar{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.jumbotron span{
+    border-bottom: 1px solid white;
+}
+
+/* portfolio */
+
+
+.portfolio span{
+    border-bottom: 1px solid black;
+}
+
+.portfolio-img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
 .work{
-    background-color: slateblue;
-    /* da cancellare */
-    height: 100px;
-    border: 1px solid black;
+    height: 250px;
 }
 
 .about{
